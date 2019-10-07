@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:mztrix"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="grid">
         <Label x:Name="label" Content="Операции с матрицами" HorizontalAlignment="Left" Margin="301,3,0,0" VerticalAlignment="Top" Height="32" Width="153"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="25,60,0,0" VerticalAlignment="Top" Width="69" Height="20" SelectionChanged="ComboBox_SelectionChanged" SelectedIndex="0">
             <ComboBoxItem Content="Строка"/>
@@ -17,7 +17,7 @@
             <ComboBoxItem Content="4"/>
             <ComboBoxItem Content="5"/>
         </ComboBox>
-        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="99,59,0,0" VerticalAlignment="Top" Width="83" Height="20" SelectedIndex="0">
+        <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="99,59,0,0" VerticalAlignment="Top" Width="83" Height="20" SelectedIndex="0" SelectionChanged="ComboBox1_SelectionChanged">
             <ComboBoxItem Content="Столбец"/>
             <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
@@ -25,7 +25,7 @@
             <ComboBoxItem Content="4"/>
             <ComboBoxItem Content="5"/>
         </ComboBox>
-        <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="492,59,0,0" VerticalAlignment="Top" Width="82" SelectedIndex="0">
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="492,59,0,0" VerticalAlignment="Top" Width="82" SelectedIndex="0" SelectionChanged="ComboBox2_SelectionChanged">
             <ComboBoxItem Content="Строка"/>
             <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
@@ -33,7 +33,7 @@
             <ComboBoxItem Content="4"/>
             <ComboBoxItem Content="5"/>
         </ComboBox>
-        <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="579,61,0,0" VerticalAlignment="Top" Width="87" SelectedIndex="0">
+        <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" Margin="579,61,0,0" VerticalAlignment="Top" Width="87" SelectedIndex="0" SelectionChanged="ComboBox3_SelectionChanged">
             <ComboBoxItem Content="Столбец"/>
             <ComboBoxItem Content="1"/>
             <ComboBoxItem Content="2"/>
